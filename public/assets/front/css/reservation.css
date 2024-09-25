@@ -1,0 +1,283 @@
+
+.contact-section {
+    position: relative;
+    padding: 100px 0;
+}
+
+.contact-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.contact-form .form-group .input-outer {
+    position: relative;
+}
+
+.contact-form .form-group .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #dddddd;
+}
+.contact-form .form-group input[type="text"],
+.contact-form .form-group input[type="email"],
+.contact-form .form-group input[type="url"],
+.contact-form .form-group textarea,
+.contact-form  select {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #000;
+    height: 60px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #000;
+}
+.contact-form  select
+{
+    border: 0 ;
+}
+.contact-form
+{
+    padding: 30px;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group select:focus,
+.contact-form .form-group textarea:focus {
+    border-color: #555;
+    color: #000;
+}
+
+.contact-form .form-group textarea {
+    height: 156px;
+    resize: none;
+}
+
+.contact-form .form-group button {
+    text-transform: capitalize;
+}
+
+.contact-form input.error:focus,
+.contact-form select.error:focus,
+.contact-form textarea.error:focus {
+    border-color: #ff0000;
+}
+
+.contact-form label.error {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #ff0000;
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+.theme-btn
+{
+    border: 0 ;
+    border-radius: 40px;
+}
+.validations ul
+{
+    list-style-type: none;
+    padding: 0 ;
+    margin: 0 ;
+}
+.validations ul li{
+    font-size: 15px;
+    font-weight: bold;
+}
+.validations .alert-danger::before
+{
+    float: left;
+}
+.validations .alert-success
+{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Reservation Model */
+#successMessage img
+{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 28px;
+}
+#successMessage h1 {
+    text-align: center;
+    font-size: 23px;
+    color: #a6b8aa;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+#successMessage p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+#successMessage p span
+{
+    color: #a6b8aa;
+}
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+    padding: 15px;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+#successMessage p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.modal-footer .btn-secondary
+{
+    width: 100%;
+    background-color: #a6b8aa;
+    border: 0;
+    padding: 9px;
+}
+.modal-footer
+{
+    border: 0;
+    padding-top: 0;
+}
+.allowed_seats
+{
+    padding-top: 13px;
+}
+.reservation {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px -1px 27px #d7d7cb;
+    padding: 53px;
+}
+.reservation h2 {
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 26px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.reservation p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.contact-form
+{
+    border: 1px solid #e6e6dd;
+}
+.top-header
+{
+    background-color: #9fb5b4;
+}
+.seperator
+{
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 201px;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 87px;
+    width: 100%;
+}
+.top-header .content
+{
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 5px 13px 19px 5px #8ca3a2;
+}
+.top-header .content
+{
+    padding-top: 30px;
+}
+.top-header .content h3
+{
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 41px;
+    margin-bottom: 8px;
+    margin-top: 26px;
+    position: relative;
+    font-weight: bold;
+}
+.top-header .content p{
+    font-size: 20px;
+    color: #8c8c8c;
+    margin-bottom: 29px;
+}
+.top-header {
+    background-color: #9fb5b4;
+}
+.top-header .content img {
+    height: 300px;
+    object-fit: cover;
+}
+.top-header  .seperator {
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 559px;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 87px;
+    width: 100%;
+}
+.contact-form .form-group .icon
+{
+    display: none;
+}
+.contact-form
+{
+    padding: 14px;
+}
+.reservation_text
+{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}

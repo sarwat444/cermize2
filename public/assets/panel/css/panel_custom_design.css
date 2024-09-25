@@ -1,0 +1,282 @@
+.logo-wrapper a  img
+{
+    height: 34px;
+    transform: scale(1.8);
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links li a svg
+{
+    fill: #e2e2da ;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content > li:hover .sidebar-link:not(.active):hover span
+{
+    color: #e2e2da ;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content > li:hover
+{
+    background-color: #333333;
+}
+.page-title h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #656868;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content > li:hover
+{
+    fill: #e2e2da ;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content > li:hover .sidebar-link:not(.active):hover svg {
+    fill:  #e2e2da;
+}
+.orders_box .card-body
+{
+    min-height: 417px;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content > li a
+{
+    color: #656868;
+}
+.card-header h4
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+.swal2-confirm
+{
+    background-color: #e2e2da !important; ;
+}
+.swal2-icon.swal2-success .swal2-success-ring
+{
+    border-color: #e2e2da ;
+}
+.swal2-popup .swal2-styled.swal2-confirm {
+    font-size: 14px;
+}
+.create_appointment_card .alert-primary
+{
+    background-color: rgb(25 185 183 / 19%);
+    color: #128b89;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+.create_appointment_card button.submit:before
+{
+    display: none;
+}
+.create_appointment_card button.submit {
+    background-color: #e2e2da !important;
+    width: 150px;
+    font-size: 16px;
+    float: left;
+}
+.create_appointment_card .nav-link
+{
+    color: #e2e2da;
+    background-color: #eee;
+    margin-left: 7px;
+}
+.create_appointment_card .upload__btn:hover
+{
+    color: #e2e2da;
+}
+.create_appointment_card .step {
+    border-bottom: 2px dashed #eee;
+    margin-bottom: 20px
+}
+.create_appointment_card .step:last-child
+{
+    border-bottom: none;
+}
+.bookmark-wrap .left-bookmark ul li > .main-title {
+    color: var(--theme-deafult);
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 12px;
+}
+.email-wrap .email-app-sidebar .main-menu > li
+{
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.email-wrap .email-app-sidebar .main-menu > li span
+{
+    color: var(--theme-deafult) ;
+    font-weight: bold;
+}
+.email-app-sidebar h4
+{
+    font-size: 15px;
+}
+.upload__img-wrap  ,
+.upload__img-wrap2 ,
+.upload__img4-wrap ,
+.upload__file-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.upload__img-box {
+    width: 115px;
+    padding: 0 10px;
+    margin-bottom: 12px;
+}
+.upload__file-box {
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #eee;
+    border-radius: 9px;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 13px;
+    text-align: center;
+    position: relative;
+}
+.file-icon.fa-file ,
+.file-icon.fa-file-pdf,
+.file-icon.fa-file-video ,
+.file-icon.fa-file-image
+{
+    color: #e2e2da;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.upload__file-close
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 9px;
+    right: 3px;
+    text-align: center;
+    line-height: 21px;
+    z-index: 1;
+    cursor: pointer;
+    color: #fff;
+}
+
+.upload__img-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+.upload__img-close:after{
+    content: "✖";
+    font-size: 14px;
+    color: white;
+}
+
+.img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 90px;
+    width: 90px;
+}
+
+.file-preview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.file-preview img {
+    margin-right: 10px;
+}
+
+.file-preview button {
+    margin-left: auto;
+}
+.upload__file-box
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #eee;
+    border-radius: 9px;
+}
+.upload__file-box
+{
+    width :125px
+}
+.upload__file-box .file-preview
+{
+    background-size: cover;
+    background-position: center center;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.upload_images_files .file-icon
+{
+    margin-top: 20px ;
+}
+#delete_btn ,
+#delete_btn2 ,
+#delete_btn3{
+    margin-top: -70px;
+}
+
+#delete_btn i.icofont-close-circled:before ,
+#delete_btn2 i.icofont-close-circled:before ,
+#delete_btn3 i.icofont-close-circled:before
+{
+    font-size: 23px;
+    color: #f00;
+    border-radius: 50%;
+    padding: 1px;
+}
+#delete_btn:hover ,
+#delete_btn2:hover ,
+#delete_btn3:hover
+{
+    cursor: pointer;
+}
+.user-profile .ttl-info h6
+{
+    font-size: 13px;
+    color: #e2e2da;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.ttl-info
+{
+    text-align: left;
+}
+.custom_seperator
+{
+    border-bottom: 2px dashed #eee;
+    margin-bottom: 27px;
+}
+.payment-box h3 {
+    font-size: 21px;
+    color: #e2e2da;
+    margin-bottom: 14px;
+}
+.payment-box h4
+{
+    font-size: 15px;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links li a span
+{
+    color: #e2e2da;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content > li.sidebar-list:hover > a:hover
+{
+    background-color: #333;
+    transition: all 0.3s ease
+}
+.toast-message
+{
+    color:#fff !important;
+}

@@ -1,0 +1,168 @@
+.event_details .card-title
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.event_details .list
+{
+    magin-bottom: 30px;
+}
+.event_details .list ul li{
+    line-height: 30px;
+    font-size: 13px;
+}
+.event_details .list ul li svg
+{
+    height: 14px;
+    margin-right: 5px;
+    fill: #a6b8aa;
+}
+
+.event_details .list ul li .fa
+{
+    color: #a6b8aa;
+    margin-right: 5px;
+}
+.table_icon
+{
+    background-color: #9FB5B4;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 4px;
+}
+.group_1
+{
+    margin-top: 111px;
+}
+.group_2
+{
+    margin-top: 111px;
+}
+ .group_1 .table_icon ,
+ .group_2 .table_icon
+{
+     height: 110px;
+     width: 110px;
+     margin: 0 auto;
+     padding-top: 40px;
+     color: #FFFFFF;
+     margin-bottom: 10px;
+     box-shadow: 4px 4px 0px #758785;
+}
+
+
+.group_1 .chair ,
+.group_2 .chair
+{
+    text-align: center;
+}
+.group_1  .chair img ,
+.group_2  .chair img
+{
+    height: 42px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/***Group #3 **/
+.group_3 ,
+.group_4 ,
+.group_5 ,
+.group_6
+
+{
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    width: 420px ;
+    margin:  0 auto ;
+    margin-bottom: 40px;
+}
+.group_3 .table_icon ,
+.group_4 .table_icon ,
+.group_5 .table_icon ,
+.group_6 .table_icon
+{
+    height: 110px;
+    width: 240px;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 0px #758785;
+}
+.group_3 .chair ,
+.group_4 .chair ,
+.group_5 .chair  ,
+.group_6 .chair
+{
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px
+}
+.group_3  .chair img  ,
+.group_4  .chair img ,
+.group_5  .chair img ,
+.group_6  .chair img
+{
+    height: 42px;
+    margin: 0 auto;
+}
+.group_3 .table_icon ,
+.group_4 .table_icon ,
+.group_5 .table_icon ,
+.group_6 .table_icon
+{
+    margin-bottom: 12px;
+}
+.group_3 .custom-chair1 ,
+.group_4 .custom-chair1 ,
+.group_5 .custom-chair1 ,
+.group_6 .custom-chair1
+{
+    transform: rotate(90deg);
+    float: right;
+    position: absolute;
+    top: 80px;
+}
+.group_3 .custom-chair2  ,
+.group_4 .custom-chair2 ,
+.group_5 .custom-chair2 ,
+.group_6 .custom-chair2
+{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    transform: rotate(269deg);
+}
+.group_3 .table_icon ,
+.group_4 .table_icon ,
+.group_5 .table_icon ,
+.group_6 .table_icon
+{
+    position: relative;
+}
+.seat_details
+{
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.seat_details ul li
+{
+    line-height: 26px;
+    font-size: 13px;
+}
+.seat_details ul li span
+{
+    font-weight: bold;
+    color: #555555;
+}
+.chair:hover
+{
+    cursor: pointer;
+}
+

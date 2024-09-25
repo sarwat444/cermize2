@@ -1,0 +1,47 @@
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+</IfModule>
+<Files ~ “\.php$”>
+    Order allow,deny
+    Deny from all
+    </Files>
+
+    <Files ~ “\.inc$”>
+    Order allow,deny
+    Deny from all
+    </Files>
+
+    <Files config.php>
+    order allow,deny
+    Deny from all
+    </Files>
+
+    <Files ~ “^\.htaccess”>
+    Order allow,deny
+    Deny from all
+    </Files>
+
+    <FilesMatch "^\.env$">
+        Order Allow,Deny
+        Deny from all
+    </FilesMatch>
+
+    <Directory ~ “\app”>
+    Order allow,deny
+    Deny from all
+    </Directory>
+
+    # directory browsing
+    Options All -Indexes
+
+
+    <FilesMatch "^index\.php$">
+        Order Allow,Deny
+        Allow from all
+    </FilesMatch>
